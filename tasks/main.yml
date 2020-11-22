@@ -111,3 +111,7 @@
     enabled: true
   become: yes
   tags: bind
+
+- name: Flush handlers
+  meta: flush_handlers
+  when: bind_flush_handlers

@@ -80,3 +80,6 @@ bind_zone_file_mode: "0640"
 bind_dns64: false
 bind_dns64_clients:
   - "any"
+
+# Whether to flush the handlers at the end of the role
+bind_flush_handlers: true
